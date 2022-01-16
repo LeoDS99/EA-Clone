@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  background-color: rgb(157, 196, 248);
+  flex-wrap: wrap;
+  height: 30vh;
+  width: 30vh;
+}
+.color {
+  padding: 10px 10px 0px 10px;
+  height: 30px;
+  width: 80px;
+}
+
+.color p {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 0;
+  margin-top: 5px;
+}
+.color-red {
+  background-color: #ff4747;
+  height: 30px;
+  width: 80px;
+}
+.color-blue {
+  background-color: #6fb0d6;
+  height: 30px;
+  width: 80px;
+}
+.color-gray {
+  background-color: #f3f3f3;
+  height: 30px;
+  width: 80px;
+}
