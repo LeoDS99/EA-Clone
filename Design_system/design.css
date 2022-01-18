@@ -37,7 +37,6 @@ p {
     font-size: 11px;
 }
 
-#imgprimary {
-    margin-top: 10px;
-
+img {
+    margin: 10px;
 }
