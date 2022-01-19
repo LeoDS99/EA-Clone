@@ -1,3 +1,5 @@
+/* Buttons */
+
 h2 {
     margin-bottom: 10px;
 }
@@ -82,4 +84,41 @@ p {
     border-radius: 3px;
     font-size: 100%;
     color: white;
+}
+
+/*STYLE FONT*/
+@font-face {
+    font-family: EA-fontlight;
+    src: url(ElectronicArtsText-Light.woff2);
+}
+
+@font-face {
+    font-family: EA-fontbold;
+    src: url(ElectronicArtsText-Bold.woff2);
+}
+
+@font-face {
+    font-family: EA-fontregular;
+    src: url(ElectronicArtsText-Regular.woff2);
+}
+
+h3,
+h4 {
+    font-family: EA-fontbold;
+}
+
+h5 {
+    font-family: EA-fontregular;
+}
+
+h6 h2 {
+    font-family: EA-fontlight;
+}
+
+p {
+    font-size: 11px;
+}
+
+img {
+    margin: 10px;
 }
