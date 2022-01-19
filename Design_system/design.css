@@ -1,34 +1,165 @@
-.container {
-  display: flex;
-  background-color: rgb(157, 196, 248);
-  flex-wrap: wrap;
-  height: 30vh;
-  width: 30vh;
-}
-.color {
-  padding: 10px 10px 0px 10px;
-  height: 30px;
-  width: 80px;
+/* Buttons */
+
+h2 {
+    margin-bottom: 10px;
 }
 
+.primary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.default {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.primary_btn {
+    height: 55px;
+    width: 155px;
+    background: inherit;
+    border: solid 2px black;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.primary_btn_hover {
+    height: 65px;
+    width: 165px;
+    background: inherit;
+    border: solid 2px black;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.alternative{
+    background-color: rgba(8, 45, 114, 0.719) ;
+    height: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.alternative_btn {
+    height: 55px;
+    width: 155px;
+    background: inherit;
+    border: solid 2px white;
+    border-radius: 3px;
+    font-size: 100%;
+    color: white;
+}
+
+.alternative_btn_hover {
+    height: 65px;
+    width: 165px;
+    background: inherit;
+    border: solid 2px white;
+    border-radius: 3px;
+    font-size: 100%;
+    color: white;
+}
+
+.vote_btn {
+    height: 55px;
+    width: 155px;
+    background: #ff4747;
+    border: solid 2px #ff4747;
+    border-radius: 3px;
+    font-size: 100%;
+    color:white
+}
+
+.vote_btn_hover {
+    height: 65px;
+    width: 165px;
+    background: #ff4747;
+    border: solid 2px #ff4747;
+    border-radius: 3px;
+    font-size: 100%;
+    color: white;
+}
+
+/*STYLE FONT*/
+@font-face {
+    font-family: EA-fontlight;
+    src: url(ElectronicArtsText-Light.woff2);
+}
+
+@font-face {
+    font-family: EA-fontbold;
+    src: url(ElectronicArtsText-Bold.woff2);
+}
+
+@font-face {
+    font-family: EA-fontregular;
+    src: url(ElectronicArtsText-Regular.woff2);
+}
+
+h3,
+h4 {
+    font-family: EA-fontbold;
+}
+
+h5 {
+    font-family: EA-fontregular;
+}
+
+h6 h2 {
+    font-family: EA-fontlight;
+}
+
+p {
+    font-size: 11px;
+}
+
+img {
+    margin: 10px;
+}
+
+/* Colors */
+
+.container {
+    display: flex;
+    background-color: rgb(157, 196, 248);
+    flex-wrap: wrap;
+    height: 30vh;
+    width: 30vh;
+}
+
+.color {
+    padding: 10px 10px 0px 10px;
+    height: 30px;
+    width: 80px;
+}
+  
 .color p {
-  font-size: large;
-  font-weight: bold;
-  padding-top: 0;
-  margin-top: 5px;
+    font-size: large;
+    font-weight: bold;
+    padding-top: 0;
+    margin-top: 5px;
 }
+  
 .color-red {
-  background-color: #ff4747;
-  height: 30px;
-  width: 80px;
+    background-color: #ff4747;
+    height: 30px;
+    width: 80px;
 }
+  
 .color-blue {
-  background-color: #6fb0d6;
-  height: 30px;
-  width: 80px;
+    background-color: #6fb0d6;
+    height: 30px;
+    width: 80px;
 }
+ 
 .color-gray {
-  background-color: #f3f3f3;
-  height: 30px;
-  width: 80px;
+    background-color: #f3f3f3;
+    height: 30px;
+    width: 80px;
 }
