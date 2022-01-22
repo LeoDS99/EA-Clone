@@ -44,8 +44,8 @@ p {
     font-size: 18px;
 }
 
-.alternative{
-    background-color: rgba(8, 45, 114, 0.719) ;
+.alternative {
+    background-color: rgba(8, 45, 114, 0.719);
     height: 100%;
     width: 300px;
     margin-bottom: 20px;
@@ -59,12 +59,12 @@ p {
 .vote_btn {
     background: var(--red);
     border: solid 2px var(--red);
-    color:white
+    color: white
 }
 
 .result_btn {
     background-color: white;
-    border:white;
+    border: white;
 }
 
 /*STYLE FONT*/
