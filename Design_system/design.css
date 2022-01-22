@@ -24,74 +24,47 @@ h2 {
   align-items: center;
 }
 
-.primary_btn {
-  height: 55px;
-  width: 155px;
-  background: inherit;
-  border: solid 2px black;
-  border-radius: 3px;
-  font-size: 100%;
+.btn {
+    height: 55px;
+    width: 155px;
+    background: inherit;
+    border: solid 2px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.btn:hover {
+    height: 65px;
+    width: 165px;
+    font-size: 100%;
 }
 
 p {
-  margin-left: 20px;
-  font-size: 18px;
+    margin-left: 20px;
+    font-size: 18px;
 }
 
-.primary_btn_hover {
-  height: 65px;
-  width: 165px;
-  background: inherit;
-  border: solid 2px black;
-  border-radius: 3px;
-  font-size: 100%;
-}
-
-.alternative {
-  background-color: rgba(8, 45, 114, 0.719);
-  height: 100%;
-  width: 300px;
-  margin-bottom: 20px;
+.alternative{
+    background-color: rgba(8, 45, 114, 0.719) ;
+    height: 100%;
+    width: 300px;
+    margin-bottom: 20px;
 }
 
 .alternative_btn {
-  height: 55px;
-  width: 155px;
-  background: inherit;
-  border: solid 2px white;
-  border-radius: 3px;
-  font-size: 100%;
-  color: white;
-}
-
-.alternative_btn_hover {
-  height: 65px;
-  width: 165px;
-  background: inherit;
-  border: solid 2px white;
-  border-radius: 3px;
-  font-size: 100%;
-  color: white;
+    border: solid 2px white;
+    color: white;
 }
 
 .vote_btn {
-  height: 55px;
-  width: 155px;
-  background: #ff4747;
-  border: solid 2px #ff4747;
-  border-radius: 3px;
-  font-size: 100%;
-  color: white;
+    background: #ff4747;
+    border: solid 2px #ff4747;
+    color:white
 }
 
-.vote_btn_hover {
-  height: 65px;
-  width: 165px;
-  background: #ff4747;
-  border: solid 2px #ff4747;
-  border-radius: 3px;
-  font-size: 100%;
-  color: white;
+.result_btn {
+    background-color: white;
+    border:white;
 }
 
 /*STYLE FONT*/
