@@ -57,8 +57,8 @@ p {
 }
 
 .vote_btn {
-    background: #ff4747;
-    border: solid 2px #ff4747;
+    background: var(--red);
+    border: solid 2px var(--red);
     color:white
 }
 
