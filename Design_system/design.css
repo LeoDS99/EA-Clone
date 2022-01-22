@@ -1,0 +1,141 @@
+/* Var */
+
+:root {
+  --red: #ff4747;
+  --blue: #6fb0d6;
+  --gray: #f3f3f3;
+}
+
+/* Buttons */
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.primary {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.default {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+    height: 55px;
+    width: 155px;
+    background: inherit;
+    border: solid 2px;
+    border-radius: 3px;
+    font-size: 100%;
+}
+
+.btn:hover {
+    height: 65px;
+    width: 165px;
+    font-size: 100%;
+}
+
+p {
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.alternative{
+    background-color: rgba(8, 45, 114, 0.719) ;
+    height: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.alternative_btn {
+    border: solid 2px white;
+    color: white;
+}
+
+.vote_btn {
+    background: var(--red);
+    border: solid 2px var(--red);
+    color:white
+}
+
+.result_btn {
+    background-color: white;
+    border:white;
+}
+
+/*STYLE FONT*/
+@font-face {
+  font-family: EA-fontlight;
+  src: url(ElectronicArtsText-Light.woff2);
+}
+
+@font-face {
+  font-family: EA-fontbold;
+  src: url(ElectronicArtsText-Bold.woff2);
+}
+
+@font-face {
+  font-family: EA-fontregular;
+  src: url(ElectronicArtsText-Regular.woff2);
+}
+
+h3,
+h4 {
+  font-family: EA-fontbold;
+}
+
+h5 {
+  font-family: EA-fontregular;
+}
+
+h6 h2 {
+  font-family: EA-fontlight;
+}
+
+p {
+  font-size: 11px;
+}
+
+img {
+  margin: 10px;
+}
+
+/* Colors */
+
+.container {
+  display: flex;
+  background-color: rgb(157, 196, 248);
+  flex-wrap: wrap;
+  height: 30vh;
+  width: 30vh;
+  justify-content: space-around;
+}
+
+.color {
+  padding: 10px 10px 0px 10px;
+  height: 30px;
+  width: 80px;
+}
+
+.color p {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 0;
+  margin: auto;
+}
+
+.red {
+  background-color: var(--red);
+}
+
+.blue {
+  background-color: var(--blue);
+}
+
+.gray {
+  background-color: var(--gray);
+}
