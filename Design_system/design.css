@@ -144,69 +144,117 @@ img {
 /* Cards */
 
 .card-container {
-    margin-top: 120px;
+  margin-top: 120px;
 }
 
 .card-container h2 {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 #card {
-    height: 60vh;
-    width: 18vw;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 5px 5px grey;
-    transition: 0.5s;
+  height: 60vh;
+  width: 18vw;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 5px 5px grey;
+  transition: 0.5s;
 }
 
 #card:hover {
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0px 15px 15px grey;
+  transform: translateY(-5px);
+  transition: 0.5s;
+  box-shadow: 0px 15px 15px grey;
 }
 
 .img-placeholder {
-    background-color: rgba(160, 156, 156, 0.616);
-    width: 100%;
-    height: 30%;
+  background-color: rgba(160, 156, 156, 0.616);
+  width: 100%;
+  height: 30%;
 }
 
 .card-body {
-    display: flex;
-    flex-direction: column;
-    height: 60%;
-    padding: 15px;
-    padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  padding: 15px;
+  padding-top: 0;
 }
 
 .card-header {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    margin-bottom: 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 0;
 }
 
-.card-header img{
-    height: 50px;
-    width: 100px;
+.card-header img {
+  height: 50px;
+  width: 100px;
 }
 
 .date {
-    font-size: 15px;
-    font-weight: bold;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 .card-text {
-    display: flex;
-    flex-direction: column;
-    margin: 0 18px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 18px;
 }
 
 
 
 .card-text p {
-    font-size: 18px;
-    margin-left: 0;
-    margin-top: 0;
+  font-size: 18px;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+/* Cards-Giochi */
+.card-giochi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px black;
+  background-image: url("");
+
+  background-size: cover;
+  position: relative;
+  height: 330px;
+  width: 310px;
+  margin-top: 10px;
+
+}
+
+
+.card-giochi-nome {
+  position: relative;
+  transition: 2s;
+}
+
+.card-giochi-testo {
+  position: relative;
+  opacity: 0;
+
+
+}
+
+.card-giochi:hover .card-giochi-testo {
+  opacity: 1;
+  bottom: 40px;
+  margin-left: 50px;
+
+}
+
+.card-giochi:hover .card-giochi-nome {
+  bottom: 50px;
+  padding-bottom: 0px;
+  transition: 5s;
+}
+
+.card-giochi:hover {
+  background: rgb(59, 63, 133);
+  background: linear-gradient(90deg, rgba(59, 63, 133, 0.9251050762101716) 0%, rgba(230, 122, 125, 0.8858893899356618) 100%);
+
 }
