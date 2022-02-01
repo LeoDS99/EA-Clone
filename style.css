@@ -1,2 +1,85 @@
+* {
+  margin: 0;
+  font-family: EA-fontlight;
+  src: url(ElectronicArtsText-Light.woff2);
+}
 
+@font-face {
+  font-family: EA-fontlight;
+  src: url(ElectronicArtsText-Light.woff2);
+}
 
+@font-face {
+  font-family: EA-fontbold;
+  src: url(ElectronicArtsText-Bold.woff2);
+}
+
+@font-face {
+  font-family: EA-fontregular;
+  src: url(ElectronicArtsText-Regular.woff2);
+}
+
+.blackbar {
+  display: flex;
+  background-color: black;
+  height: 4vh;
+  justify-content: flex-end;
+}
+
+navbar {
+  display: flex;
+  width: 100%;
+  height: 5vh;
+  background-color: white;
+  align-items: center;
+}
+
+.logo {
+  width: auto;
+  align-items: center;
+}
+
+.element {
+  width: 100%;
+  margin-left: 30px;
+  display: flex;
+  font-weight: bolder;
+}
+
+.navElement {
+  display: inline-flex;
+  float: right;
+  display: flex;
+  padding: 15px;
+}
+
+.background-section {
+  height: 75vh;
+  width: 100%;
+  background-image: url("/Design_system/imgEA.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.battlefield-text {
+  display: flex;
+  color: white;
+  width: 30vw;
+  margin-left: 20vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.battlefield-text-head {
+  font-size: 3em;
+  text-align: center;
+  font-weight: 900;
+}
+
+.battlefield-text-body {
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
+}
